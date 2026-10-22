@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+script=$0
+while [ -L "$script" ]; do
+  link=$(readlink "$script")
+  case "$link" in /*) script=$link ;; *) script=$(dirname -- "$script")/$link ;; esac
+done
+exec pwsh -NoLogo -NoProfile -File "$(CDPATH= cd -- "$(dirname -- "$script")" && pwd)/gitdark.ps1" gitdarkive "$@"
