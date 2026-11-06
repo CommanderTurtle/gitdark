@@ -1,6 +1,6 @@
-<a href="./SKILL.md" title="Redirect to Skill File"><img src="https://github.com/CommanderTurtle/CommanderTurtle/raw/refs/heads/main/src/peng.svg" alt="Gitinclude Banner" /></a>
-
 # gitdark
+
+<a href="./SKILL.md" title="Redirect to Skill File"><img src="https://github.com/CommanderTurtle/CommanderTurtle/raw/refs/heads/main/src/peng.svg" alt="Gitinclude Banner" /></a>
 
 Three Git histories, one working tree. A small PowerShell wrapper around your
 installed Git, not a modified Git build. Requires Git and PowerShell 7 (`pwsh`).
