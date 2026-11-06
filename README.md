@@ -81,3 +81,13 @@ not your working repositories, and never push.
 Git interfaces used: [separate Git directory/worktree](https://git-scm.com/docs/git),
 [ignore-aware listing](https://git-scm.com/docs/git-ls-files),
 [literal NUL-delimited staging](https://git-scm.com/docs/git-add).
+
+## Skill, for Agents
+
+To refresh the installed copy after you edit the repo's version:
+
+```bash
+cp gitdark/SKILL.md ~/.omp/agent/skills/gitdark/SKILL.md. 
+```
+
+(Oh-My-Pi Example)
